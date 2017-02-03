@@ -1,0 +1,64 @@
+.main{
+  	padding:30px;
+}
+
+body * {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    width: 800px;
+    font-size: 0;
+    height: auto;
+    margin: 4% auto;
+}
+
+.green{
+	background-color: green;
+	display: inline-block;
+	width: 50%;
+	height: 200px;
+  border: 1px solid black;
+  font-size: 0;
+}
+
+
+.blue{
+	background-color: blue;
+	display: inline-block;
+	width: 50%;
+	height: 200px;
+  border: 1px solid black;
+  font-size: 0;
+}
+
+.gray{
+  	background-color: gray;
+  	height: 300px;
+  	width: 33.3%;
+  	display: inline-block;
+  	font-size: 0;
+  	border: 1px solid black;
+}
+
+
+.black {
+  	background-color: black;
+  	height: 300px;
+  	width: 33.3%;
+  	display: inline-block;
+  	font-size: 0;
+  	border: 1px solid black;
+  }
+
+
+.orange {
+	background-color: orange;
+	height: 300px;
+	width: 33.3%;
+	display: inline-block;
+	font-size: 0;
+	border: 1px solid black;
+}
+

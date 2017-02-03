@@ -1,0 +1,102 @@
+html { 
+  background: url("../images/outerspace_landscape.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*.background_image {
+	position: relative;
+	height:100vh;
+	background-image: url(f"../images/outerspace_landscape.jpeg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	}*/
+
+
+
+.green_rectangle{
+	position:absolute;
+	border:green 5px dashed;       
+	width: 600px ;
+	height: 300px;
+	/*
+
+	left: 50% pushes block halfway across its parent (so its left side is on the 50% mark). 
+	transform: translate(-50%, 0);pulls the block half it's own width back along the x-axis 
+	(ie. to the left), which will place it right in the center of the parent.*/
+
+    left: 50%; 
+    top:25%;
+    transform: translate(-50%, 0); 
+    position: absolute;
+	
+}
+
+.space_cat{
+	position:absolute;
+	/*left: 250px;
+	top: 50px;*/
+	width: 200px;
+	height: auto;								/*resize with browser??*/
+	left: 25%; 
+    top:25%;
+    transform: translate(-50%, -50%);
+	z-index:1;
+}
+
+.space_dog{
+	position:absolute;
+	/*left: 850px;
+	top: 350px;*/
+	width: 200px;
+	height: auto;
+	left: 50%; 
+    top:50%;
+    transform: translate(75%, 25%);
+	z-index:1;
+}
+nav{
+	background-color: grey;
+	position: fixed;
+	text-align: left; 
+	width: 100%;
+	height:auto;
+}
+
+.logo_image{
+	position: absolute;
+	height:50px;
+	width: 50px;
+	border-radius:50%;
+   /* margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 10px;*/
+    border: solid 1px black;
+    left: 2%; 
+    top:20%;
+}
+
+ul { 
+    vertical-align: center;
+    list-style: none; 
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+li
+{
+	display: inline-block;
+}
+
+ul li::before {
+  content: " | ";                     /*remove from before Home??*/
+  font-size: 15 px;
+}
+
+
+
+
+
